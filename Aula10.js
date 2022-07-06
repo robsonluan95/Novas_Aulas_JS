@@ -44,3 +44,6 @@ Tagsh2[0].style.color="blue";
 for (var i=0;i<Tagsh2.length;i++){
     Tagsh2[i].style.fontSize="14px";
 }
+//Dessa forma mandamos o for fazer uma varredura em todas as tags usando o valor do tamanho da 
+//Variavel TagsH2 (usando o metodo length ) e ele vai incrementandop uma por uma ate todas ta feita
+
