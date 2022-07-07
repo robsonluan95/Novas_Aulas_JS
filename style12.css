@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+label{
+    font-size: 20px;
+}
+.bt{
+    background-color: cadetblue;
+    border: 0px;
+    width: 100px;
+    margin: 5px;
+    height: 20px;
+    border-radius: 3px;
+    
+}
+.bt:hover{ color: white; background-color: yellowgreen; transform: scale(1.5);
+    transition-duration: 1s;border-radius: 3px;}
+
+.envio{
+    color: rgb(139, 139, 139);
+    text-align: center;
+   
+}
+.envio:hover{
+    background-color: teal;
+    border: 0px;
+    transform: scale(1.5);
+    transition-duration: 1s;
+    color: black;
+    border-radius: 3px;
+}
