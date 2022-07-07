@@ -1,10 +1,13 @@
 // APRENDENDO A FAZER FUNÇÃO
 
-
-function escreve(){
-    document.write("curso ")
+// Função criada so parar retorna um print(mais simples)
+function escreve(dias){
+    var quant=dias
+    document.write(dias," curso ")
 }
-escreve();
+escreve(10);
+
+//Variavel usada para retorna um valor 
 function soma(n1,n2){
     var resultado=(n1+n2)
     return resultado
@@ -12,6 +15,8 @@ function soma(n1,n2){
 
 document.write(soma(10,5))
 document.write("<br>")
+
+//Variavel usada para fazer um contatdor atravez de um array
 
 var numeros=[1,2,3,4,5,6];
 function media(nums){
