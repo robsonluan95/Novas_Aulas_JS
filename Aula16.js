@@ -14,3 +14,9 @@ function meuCarro(){
 }
 meuCarro();
 document.write("<br> Carro VAR GLOBAL: ",carro,",",moto)
+
+//Vemos aqui que a variavel Moto mudou Graças a Alteraçao da função 
+//Mas so por conta que nao foi colocardo vcar na frente e mostrando que ele
+//ta pegando o mesmo valor dentro do escopo
+
+//CASO QUERIA MOSTRAR A VARIAVEL GLOBAL .this
