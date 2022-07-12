@@ -18,6 +18,8 @@ function atualizar(){
 }
 
 function trocaCor(){
+    var music= new Audio('notificacion.mp3')
+    music.play();
     var backGroundCorEscura="#4C6476"
     var backGround2CorEscura="#384957"
     var fundoBt=document.getElementById("bt")
@@ -29,11 +31,13 @@ function trocaCor(){
     if (cont%2==0){
         fundoPg.style.backgroundColor=backGround2CorEscura
         fundoRelo.style.backgroundColor=backGroundCorEscura
-        fundoBt.style.backgroundColor=backGroundCorEscura 
+        fundoBt.style.backgroundColor=backGroundCorEscura
+        fundoRelo.style.color="#abb39a"; 
     }else{
         fundoPg.style.backgroundColor=backGroundCorEscura
         fundoRelo.style.backgroundColor=backGround2CorEscura
         fundoBt.style.backgroundColor=backGround2CorEscura
+        fundoRelo.style.color="#64764C"
     }
   
     console.log(cont)

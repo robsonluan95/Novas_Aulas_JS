@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 #rel{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: black;
+    font-family: 'Jost', sans-serif;
+    color:#abb39a;
     width: 50%;
     height: 35%;
     background-color:#4C6476;
@@ -28,11 +28,27 @@
     
 }
 #bt{
+    font-size: 20px;
     background-color:#4C6476;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Jost', sans-serif;
     border: none;
     width: 100px;
-    height: 25px;
+    height: 35px;
     border-radius: 3px;
     box-shadow: 13px 13px 13px 0px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+img{
+    width: 30px;
+}
+#coffe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#coffe img{
+    width: 150px;
 }
