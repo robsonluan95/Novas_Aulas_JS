@@ -1,4 +1,10 @@
-#rel{
+#jogador{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #00f;
+    width: 50px;
+    height: 50px;
     font-size: 65px;
 
 }
